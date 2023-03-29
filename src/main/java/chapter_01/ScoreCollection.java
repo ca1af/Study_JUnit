@@ -14,4 +14,5 @@ public class ScoreCollection {
 		int total = scores.stream().mapToInt(Scoreable::getSource).sum();
 		return total;
 	}
+	// push test
 }
